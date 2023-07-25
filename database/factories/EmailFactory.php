@@ -17,7 +17,7 @@ class EmailFactory extends Factory
     public function definition()
     {
         return [
-            'email' => fake()->email()
+            'email' => fake()->safeEmail()
         ];
     }
 }
